@@ -19,89 +19,17 @@
     <Filter Include="source">
       <UniqueIdentifier>{3d50bda8-bdfb-4318-81d5-f72da91d1102}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{ab8f48d9-339d-451f-8f75-4f11c3e08dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\scene">
+      <UniqueIdentifier>{28d7146d-11c2-46dd-8f8e-720ef35fb4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video">
+      <UniqueIdentifier>{59cb8048-1893-4ac5-a194-d76dcfe2e780}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\aabbox3d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\CIndexBuffer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\CVertexBuffer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\dimension2d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthAllocator.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthArray.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthCompileConfig.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthMath.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthString.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EarthTypes.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EHardwareBufferFlags.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\heapsort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\IIndexBuffer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\IReferenceCounted.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\IVertexBuffer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\line2d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\line3d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\matrix4.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\plane3d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\position2d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\quaternion.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\rect.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\S3DVertex.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\SColor.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\SVertexIndex.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\vector2d.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\vector3d.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="source\CCamera.h">
       <Filter>source</Filter>
     </ClInclude>
@@ -122,6 +50,87 @@
     </ClInclude>
     <ClInclude Include="source\WindowAPI.h">
       <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CIndexBuffer.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CVertexBuffer.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EHardwareBufferFlags.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IIndexBuffer.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVertexBuffer.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S3DVertex.h">
+      <Filter>include\video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SColor.h">
+      <Filter>include\video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SVertexIndex.h">
+      <Filter>include\video</Filter>
+    </ClInclude>
+    <ClInclude Include="include\aabbox3d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dimension2d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthAllocator.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthArray.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthCompileConfig.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthMath.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthString.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthTypes.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\heapsort.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IReferenceCounted.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line2d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line3d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix4.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane3d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\position2d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quaternion.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rect.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2d.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3d.h">
+      <Filter>include\core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

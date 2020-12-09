@@ -15,6 +15,11 @@
 #pragma comment(lib, "d3d9.lib")
 #pragma comment(lib, "d3dx9d.lib")
 
+// 프로젝트 속성 - VC 디렉터리 - 포함디렉터리
+// $(DXSDK_DIR)Include
+
+// 프로젝트 속성 - VC 디렉터리 - 라이브러리디렉터리
+// $(DXSDK_DIR)Lib\x86
 
 int main() {
 
