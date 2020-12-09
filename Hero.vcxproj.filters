@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1114e5f8-b524-4f8d-be9c-564b1273f385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{3d50bda8-bdfb-4318-81d5-f72da91d1102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\aabbox3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dimension2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthAllocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthCompileConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EarthTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EHardwareBufferFlags.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\heapsort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IReferenceCounted.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\line3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\position2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quaternion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\S3DVertex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SColor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SVertexIndex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CCamera.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSceneManager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DirectX.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EarthEngine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IEventReceiver.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TestVertex1.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WindowAPI.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CCamera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSceneManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DirectX.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EarthEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TestVertex1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WindosAPI.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
